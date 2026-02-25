@@ -7,6 +7,7 @@ Securin Delhi Weather Insights is a Spring Boot application developed to process
 - CSV data processing
 - Database integration
 - Layered architecture (Controller, Service, Repository)
+- Centralized exception handling
 - RESTful API structure
 - Clean and maintainable code structure
 
@@ -23,12 +24,19 @@ Securin Delhi Weather Insights is a Spring Boot application developed to process
 - **Service Layer** – Contains business logic
 - **Repository Layer** – Manages database operations
 - **Entity Layer** – Defines entity classes
+- **Util Package** – Contains global exception handling 
 - **application.properties** – Configuration file
+
+## Exception Handling
+The application includes centralized exception handling implemented inside the `util` package.  
+Custom exceptions and global exception handlers are used to ensure consistent error responses and better API reliability.
 
 ## How to Run the Project
 1. Clone the repository:
 
+
 git clone https://github.com/iharini23/Securin-delhi-weather-insights.git
+
 
 2. Open the project in STS / IntelliJ IDEA.
 3. Configure database details in `application.properties`.
@@ -37,7 +45,7 @@ git clone https://github.com/iharini23/Securin-delhi-weather-insights.git
 
 ## Future Enhancements
 - API documentation using Swagger
-- Exception handling improvements
+- Enhanced validation mechanisms
 - Unit and integration testing
 - Deployment to cloud platform
 
