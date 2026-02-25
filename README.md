@@ -16,13 +16,13 @@ Securin Delhi Weather Insights is a Spring Boot application developed to process
 - Maven
 - Spring Data JPA
 - Hibernate
-- MySQL (or your configured database)
+- MongoDB (or your configured database)
 
 ## Project Structure
 - **Controller Layer** – Handles HTTP requests and responses
 - **Service Layer** – Contains business logic
 - **Repository Layer** – Manages database operations
-- **Model Layer** – Defines entity classes
+- **Entity Layer** – Defines entity classes
 - **application.properties** – Configuration file
 
 ## How to Run the Project
